@@ -25,10 +25,13 @@ a:hover {
 @media (min-width: 1200px) {
   .container {
     width: 1370px; } }
+.bk {
+  background-color: #0f75bc; }
+
 #top {
   background-color: #0f75bc;
   display: block;
-  height: 30px;
+  height: 15px;
   padding-top: 5px;
   margin-bottom: 20px; }
   #top .lh1 ul, #top .lh2 ul {
@@ -106,7 +109,9 @@ a:hover {
     font-size: 14px; } }
 @media (min-width: 768px) {
   .navbar {
-    border-radius: 0px; } }
+    border-radius: 0px;
+    padding-top: 20px;
+    padding-bottom: 10px; } }
 .fixed {
   position: fixed;
   z-index: 10000;
@@ -310,6 +315,9 @@ a:hover {
     background-position-x: 100000px; }
   100% {
     background-position-x: 0; } }
+footer {
+  background-color: #0f75bc; }
+
 .ft1 {
   background-color: #f89502;
   height: 15px; }
