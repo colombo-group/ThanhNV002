@@ -283,7 +283,7 @@ a:hover {
 .qc {
   background-image: url(../images/bn.png);
   background-size: cover;
-  -webkit-animation: abc ease 200s;
+  -webkit-animation: abc linear 200s;
   -webkit-animation-iteration-count: infinite;
   height: 100px;
   width: 100%;
